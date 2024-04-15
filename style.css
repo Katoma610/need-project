@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.need{
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.need-description{
+    text-align: center;
+    color: gray;
+    margin: 20px 0;
+    width: 50vw;
+}
+
+.need-form{
+    width: 50vw;
+}
+
+.need h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.need-form input{
+    margin: 0.5rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+}
+
+.need-form-container-second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.need-form-container-first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.need-form-container-second input{
+    width: 100%;
+}
+
+.need-form-container-first input{
+    width: 45%;
+    margin: 0;
+}
+
+.need-btn{
+    width: 10rem;
+    height: 2rem;
+    background-color: aqua;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    border: none;
+    margin-top: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.need-btn:hover{
+    cursor: pointer;
+}
+
+#comment{
+    height: 5rem;
+    text-align: start;
+}
